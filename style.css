@@ -1,0 +1,64 @@
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background-color: #1d2b3a;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    font-size: 1em;
+    transition: 0.5s;
+    position: relative;
+    width: 90%;
+
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background-color: #1d2b3a;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    font-size: 1em;
+    transition: 0.5s;
+    position: relative;
+    width: 90%;
+
+
+}
+
+form {
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+    background-color: #0969cf;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    padding-top: 45px;
+    text-align: center;
+
+}
+
+h1 {
+    font-family: monospace;
+    color: white;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 35px;
+    background-color: #1d2b3a;
+}
+
+li {
+    color: white;
+
+}
