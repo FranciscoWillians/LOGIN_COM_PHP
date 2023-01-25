@@ -1,0 +1,29 @@
+<html>
+
+<head lang="pt-br">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <a href="index.php"></a>
+
+    <title>Login</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <h1> Login </h1>
+    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+        Login: <br><br><input type="text" name="login" placeholder="Digite seu login"
+            value="<?php echo isset($_COOKIE['login']) ? $_COOKIE['login'] : '' ?>"><br>
+        <br>Senha: <br><br><input type="password" name="senha" placeholder="Digite sua senha"
+            value="<?php echo isset($_COOKIE['senha']) ? $_COOKIE['senha'] : '' ?>"><br>
+        <br>Lembrar senha: <input type="checkbox" name="lembrar-senha">
+        <button type="submit" name="btn-entrar"> Entrar </button>
+    </form>
+
+
+</body>
+
+</html>
